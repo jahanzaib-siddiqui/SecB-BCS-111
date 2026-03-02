@@ -1,0 +1,31 @@
+name: profile_card
+description: A professional CV portfolio Flutter app.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  google_fonts: ^6.1.0
+  font_awesome_flutter: ^10.7.0
+
+  # Cupertino Icons (recommended for iOS styling support)
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
